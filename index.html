@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Ejercicios Web</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background: #007acc;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .exercise-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .card {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+        }
+        .card a {
+            text-decoration: none;
+            color: #007acc;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #f0f0f0;
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mis Ejercicios de Programación Web</h1>
+</header>
+
+<main>
+    <section class="exercise-list">
+        <div class="card">
+            <a href="01-basic-page/index.html">01 - Página Básica</a>
+        </div>
+        <div class="card">
+            <a href="02-form-validation/index.html">02 - Validación de Formulario</a>
+        </div>
+        <div class="card">
+            <a href="03-responsive-layout/index.html">03 - Layout Responsivo</a>
+        </div>
+        <!-- Agrega más ejercicios aquí -->
+    </section>
+</main>
+
+<footer>
+    &copy; 2025 - Desarrollado por Angela Monsalve Paez
+</footer>
+
+</body>
+</html>
