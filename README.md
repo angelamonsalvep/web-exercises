@@ -11,7 +11,7 @@ Puedes acceder y probar los ejercicios directamente aquí:
 
 ## 📂 Contenido
 
-- [01 - Listas Ordenadas](https://angelamonsalvep.github.io/web-exercises/01-listas%20ordenadas/)
+- [01 - Listas Ordenadas](https://angelamonsalvep.github.io/web-exercises/01-listas-ordenadas/)
 
 
 ## 🚀 Cómo usar este repositorio
