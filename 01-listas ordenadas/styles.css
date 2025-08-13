@@ -1,0 +1,25 @@
+ol{
+    list-style: none;
+    counter-reset: contador;
+}
+
+ol li{
+    counter-increment: contador;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #e2e2e2;
+}
+
+ol li::before{
+    background-color: #f4f4f4;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    content: 'Tema ' counter(contador) ' - ';
+    color: #261744;
+}
+
+ol li::after{
+    content: '.';
+}
